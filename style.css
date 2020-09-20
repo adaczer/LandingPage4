@@ -14,10 +14,178 @@ body{
 
 
 .navbar-nav li{
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 .navbar-nav li a{
     color: #fff !important;
     font-weight: 400;
+}
+
+.navbar-nav li a:hover{
+    color: #a517ba !important;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+/*-------------- BANNER SECTION ------------*/
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    margin-top: 15%;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.btn-play{
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    margin-top: 30px;
+
+}
+
+.btn-play:hover{
+    color: #a517ba;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    background-color: #fff;
+
+}
+
+#banner img{
+    height: 300px;
+    margin-top: 20px;
+}
+
+/*-------------- SERVICES SECTION -------------------*/
+
+#services{
+    padding-bottom: 2rem;
+}
+
+#services i{
+    color: #a517ba;
+    margin-bottom: 2rem;
+    
+}
+
+#services h4{
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 3rem;
+}
+
+.title::before{
+    content: '';
+    background: #a517ba;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(52px);
+}
+
+.title::before.hover{
+    transform: translateY(20px);
+    transition: ease-in-out;
+}
+
+.panel-baner{
+    /* display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column; */
+    padding: 10px 30px 10px 30px;
+}
+
+
+/*----------- ABOUT SECTION ------------*/
+
+#about{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-image: linear-gradient(to right, rgb(245, 245, 245), rgb(238, 238, 238));
+}
+
+#about img{
+    width: 400px;
+    margin: 20px;
+}
+
+#about ul li{
+    margin: 10px 0 0 10px;
+}
+
+
+.about-title{
+    /* text-align: left; */
+padding-top: 2rem;
+padding-left: 2rem;
+font-weight: 600;
+font-size: 22px;
+}
+
+
+/*----------- TESTIMONIALS SECTION ------------*/
+
+#testimonials{
+    padding: 3rem 0 2rem 0;
+}
+
+.client-desc{
+    text-align: center;
+    font-style: italic;
+}
+
+.client-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.carousel-indicators li{
+    background-color: #a517ba;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: #a517ba;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: #a517ba;
 }
