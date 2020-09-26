@@ -151,7 +151,7 @@ font-size: 22px;
 /*----------- TESTIMONIALS SECTION ------------*/
 
 #testimonials{
-    padding: 3rem 0 2rem 0;
+    padding: 4rem 0 3rem 0;
 }
 
 .client-desc{
@@ -188,4 +188,28 @@ font-size: 22px;
   content: '<';
   font-size: 35px;
   color: #a517ba;
+}
+
+#testimonials img{
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+
+/*----------- SOCIAL SECTION ------------*/
+
+#social{
+    padding: 4rem 0 4rem 0;
+}
+
+#social img{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.social-icon a:hover img{
+    transform: translateY(-10px);
 }
