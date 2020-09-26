@@ -200,7 +200,7 @@ font-size: 22px;
 /*----------- SOCIAL SECTION ------------*/
 
 #social{
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 2rem 0;
 }
 
 #social img{
@@ -213,3 +213,37 @@ font-size: 22px;
 .social-icon a:hover img{
     transform: translateY(-10px);
 }
+
+
+/*----------- FOOTER SECTION ------------*/
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 0 3rem 0;
+    color: #fff;
+}
+
+#footer h4{
+    font-weight: 600;
+}
+
+#footer p{
+    font-size: 14px;
+}
+
+.f-box{
+    padding-left: 50px;
+    
+    
+}
+
+#footer .form-control{
+    max-width: 300px;
+    margin-bottom: 25px;
+}
+
+#footer .btn-primary{
+    box-shadow: none !important;
+    background-color: #a517ba;
+}
+
